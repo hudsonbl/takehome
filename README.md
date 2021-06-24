@@ -4,7 +4,7 @@ For scaling this project, if this was something deployed on AWS. I would assign 
 Sectioning off regions by replicating the tables in each zone. With the possibility of either replica servers or a master server containing
 all of the data. This would result in querying only for stores within a region as well; which is more logical from the users perspective.
 
-Code Coverage: 61.4%
+Code Coverage: 74.3%
 
 REST Compliance: I would add HATEOS to the GET request for closest drivers to store. This would allow a paginated response if N is large.
     ex: GET /api/drivers?StoreID=1234&N={100}
